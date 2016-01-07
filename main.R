@@ -33,4 +33,5 @@ r2[] <- (1:ncell(r2)) / 10
 # Performs the calculation
 r3 <- minusRaster(r, r2) 
 # Plot the new raster
+plot(r2)
 plot(r3)
